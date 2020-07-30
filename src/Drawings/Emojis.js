@@ -147,12 +147,12 @@ Emojis.emojisProd = {
         string: "<:bar_blue_empty:704023285771272212>"
     },
     "bar_yellow": {
-        id: "704023285574271136",
-        string: "<:bar_yellow:704023285574271136>"
+        id: "736148584298184724",
+        string: "<a:bar_yellow:736148584298184724>"
     },
     "bar_yellow_empty": {
-        id: "704023285607956591",
-        string: "<:bar_yellow_empty:704023285607956591>"
+        id: "736148574655479841",
+        string: "<a:bar_yellow_empty:736148574655479841>"
     },
     "bar_green": {
         id: "704023285590917191",

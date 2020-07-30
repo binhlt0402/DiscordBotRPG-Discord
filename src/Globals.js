@@ -12,8 +12,8 @@ var Globals = {
      * @type {Array<User>}
      */
     connectedUsers: {},
-    ownerID: "241564725870198785",
-    admins: ["241564725870198785", "285789367954440194", "228787710607753216", "403229406585421834", "245858206021058560"],
+    ownerID: "163851920895639552",
+    admins: ["163851920895639552", "249428167733936128"],
     tutorialLink: "https://wiki.fight-rpg.com/doku.php?id=en:starter_guide",
     getRarityName: (idRarity) => {
         idRarity = parseInt(idRarity);
