@@ -79,264 +79,264 @@ Emojis.weather = {
 
 Emojis.emojisProd = {
     "honor": {
-        id: "403824433837637632",
-        string: "<:honor:403824433837637632>"
+        id: "737489069486899301",
+        string: "<a:honor:737489069486899301>"
     },
     "rusty_broken_sword": {
-        id: "525603434993549312",
-        string: "<:rusty_broken_sword:525603434993549312>"
+        id: "737489070909030442",
+        string: "<a:rusty_broken_sword:737489070909030442>"
     },
     "rusty_sword": {
-        id: "525603420128935937",
-        string: "<:rusty_sword:525603420128935937>"
+        id: "737489071273934848",
+        string: "<a:rusty_sword:737489071273934848>"
     },
     "sword2": {
-        id: "525602381258293248",
-        string: "<:sword2:525602381258293248>"
+        id: "737489070464434207",
+        string: "<a:sword2:737489070464434207>"
     },
     "gold_sword": {
-        id: "525602353009917952",
-        string: "<:gold_sword:525602353009917952>"
+        id: "737489068832850064",
+        string: "<a:gold_sword:737489068832850064>"
     },
     "monster": {
-        id: "403149357387350016",
-        string: "<:monstre:403149357387350016>"
+        id: "737489071403958384",
+        string: "<a:monstre:737489071403958384>"
     },
     "sword": {
-        id: "403574088389361666",
-        string: "<:sword:403574088389361666>"
+        id: "737489070262976552",
+        string: "<a:sword:737489070262976552>"
     },
     "win": {
-        id: "403151177153249281",
-        string: "<:win:403151177153249281>"
+        id: "737489071907274763",
+        string: "<a:win:737489071907274763>"
     },
     "idFRPG": {
-        id: "523462148412932105",
-        string: "<:idFRPG:523462148412932105>"
+        id: "737489070141210705",
+        string: "<a:idFRPG:737489070141210705>"
     },
     "levelup": {
-        id: "403456740139728906",
-        string: "<:levelup:403456740139728906>"
+        id: "737489069696745605",
+        string: "<a:levelup:737489069696745605>"
     },
     "exp": {
-        id: "554308999760052242",
-        string: "<:exp:554308999760052242>"
+        id: "737489071605022731",
+        string: "<a:exp:737489071605022731>"
     },
     "bar_white": {
-        id: "704023285586722837",
-        string:"<:bar_white:704023285586722837>"
+        id: "737489145223577691",
+        string:"<a:bar_white:737489145223577691>"
     },
     "bar_white_empty": {
-        id: "704023285897363486",
-        string: "<:bar_white_empty:704023285897363486>"
+        id: "737489145215188992",
+        string: "<a:bar_white_empty:737489145215188992>"
     },
     "bar_red": {
-        id: "704023285574402138",
-        string: "<:bar_red:704023285574402138>"
+        id: "737489145005473864",
+        string: "<a:bar_red:737489145005473864>"
     },
     "bar_red_empty": {
-        id: "704023285339521177",
-        string: "<:bar_red_empty:704023285339521177>"
+        id: "737489146586726400",
+        string: "<a:bar_red_empty:737489146586726400>"
     },
     "bar_blue": {
-        id: "704023285616345311",
-        string: "<:bar_blue:704023285616345311>"
+        id: "737489144200036383",
+        string: "<:bar_blue:737489144200036383>"
     },
     "bar_blue_empty": {
-        id: "704023285771272212",
-        string: "<:bar_blue_empty:704023285771272212>"
+        id: "737489144736907354",
+        string: "<a:bar_blue_empty:737489144736907354>"
     },
     "bar_yellow": {
-        id: "736148584298184724",
-        string: "<a:bar_yellow:736148584298184724>"
+        id: "737489145609584741",
+        string: "<a:bar_yellow:737489145609584741>"
     },
     "bar_yellow_empty": {
-        id: "736148574655479841",
-        string: "<a:bar_yellow_empty:736148574655479841>"
+        id: "737489146653835324",
+        string: "<a:bar_yellow_empty:737489146653835324>"
     },
     "bar_green": {
-        id: "704023285590917191",
-        string: "<:bar_green:704023285590917191>"
+        id: "737489145450070218",
+        string: "<a:bar_green:737489145450070218>"
     },
     "bar_green_empty": {
-        id: "704023285620539402",
-        string: "<:bar_green_empty:704023285620539402>"
+        id: "737489145206931537",
+        string: "<a:bar_green_empty:737489145206931537>"
     },
     "treasure": {
-        id: "403457812535181313",
-        string: "<:treasure:403457812535181313>"
+        id: "737489072121053184",
+        string: "<a:treasure:737489072121053184>"
     },
     "loose": {
-        id: "403153660756099073",
-        string: "<:loose:403153660756099073>"
+        id: "737489069847609366",
+        string: "<a:loose:737489069847609366>"
     },
     "elite": {
-        id: "406090076511141888",
-        string: "<:elite:406090076511141888>"
+        id: "737489071890497560",
+        string: "<a:elite:737489071890497560>"
     },
     "boss": {
-        id: "456113364687388683",
-        string: "<:boss:456113364687388683>"
+        id: "737489067750719499",
+        string: "<a:boss:737489067750719499>"
     },
     "rarity_common": {
-        id: "704020575705628762",
-        string: "<:rarity_common:704020575705628762>"
+        id: "737489072221585458",
+        string: "<a:rarity_common:737489072221585458>"
     },
     "rarity_rare": {
-        id: "704020574871093362",
-        string: "<:rarity_rare:704020574871093362>"
+        id: "737489070422360084",
+        string: "<a:rarity_rare:737489070422360084>"
     },
     "rarity_superior": {
-        id: "704020574938333225",
-        string: "<:rarity_superior:704020574938333225>"
+        id: "737489070632206397",
+        string: "<a:rarity_superior:737489070632206397>"
     },
     "rarity_epic": {
-        id: "704020575193923645",
-        string: "<:rarity_epic:704020575193923645>"
+        id: "737489071219277854",
+        string: "<a:rarity_epic:737489071219277854>"
     },
     "rarity_legendary": {
-        id: "704020575609159811",
-        string: "<:rarity_legendary:704020575609159811>"
+        id: "737489071609479198",
+        string: "<a:rarity_legendary:737489071609479198>"
     },
     "rarity_mythic": {
-        id: "704020575462490222",
-        string: "<:rarity_mythic:704020575462490222>"
+        id: "737489071399501926",
+        string: "<a:rarity_mythic:737489071399501926>"
     },
     "wood_common": {
-        id: "703958796351045632",
-        string: "<:wood_common:703958796351045632>"
+        id: "738598940433317960",
+        string: "<a:wood_common:738598940433317960>"
     },
     "wood_rare": {
-        id: "703958796065833130",
-        string: "<:wood_rare:703958796065833130>"
+        id: "738598941620437034",
+        string: "<a:wood_rare:738598941620437034>"
     },
     "wood_superior": {
-        id: "703958796531138580",
-        string: "<:wood_superior:703958796531138580>"
+        id: "738598941385293867",
+        string: "<a:wood_superior:738598941385293867>"
     },
     "wood_epic": {
-        id: "703964718171422820",
-        string: "<:wood_epic:703964718171422820>"
+        id: "738598941603397692",
+        string: "<a:wood_epic:738598941603397692>"
     },
     "wood_legendary": {
-        id: "703964718213365770",
-        string: "<:wood_legendary:703964718213365770>"
+        id: "738598941402071111",
+        string: "<a:wood_legendary:738598941402071111>"
     },
     "wood_mythic": {
         id: "703958796757762048",
         string: "<:wood_mythic:703958796757762048>"
     },
     "ore_common": {
-        id: "703958795591614485",
-        string: "<:ore_common:703958795591614485>"
+        id: "738598940932571196",
+        string: "<a:ore_common:738598940932571196>"
     },
     "ore_rare": {
-        id: "703960465398824970",
-        string: "<:ore_rare:703960465398824970>"
+        id: "738598940273934387",
+        string: "<a:ore_rare:738598940273934387>"
     },
     "ore_superior": {
-        id: "703958795608653885",
-        string: "<:ore_superior:703958795608653885>"
+        id: "738598940513140957",
+        string: "<a:ore_superior:738598940513140957>"
     },
     "ore_epic": {
-        id: "703958795352670239",
-        string: "<:ore_epic:703958795352670239>"
+        id: "738598940143910914",
+        string: "<a:ore_epic:738598940143910914>"
     },
     "ore_legendary": {
-        id: "703958795516248125",
-        string: "<:ore_legendary:703958795516248125>"
+        id: "738598939963686913",
+        string: "<a:ore_legendary:738598939963686913>"
     },
     "ore_mythic": {
         id: "703958795574837258",
         string: "<:ore_mythic:703958795574837258>"
     },
     "herb_common": {
-        id: "703961463525736529",
-        string: "<:herb_common:703961463525736529>"
+        id: "738598940055699536",
+        string: "<a:herb_common:738598940055699536>"
     },
     "herb_rare": {
-        id: "703958795965038662",
-        string: "<:herb_rare:703958795965038662>"
+        id: "738598940781445130",
+        string: "<a:herb_rare:738598940781445130>"
     },
     "herb_superior": {
-        id: "703961463575937024",
-        string: "<:herb_superior:703961463575937024>"
+        id: "738598940177596497",
+        string: "<a:herb_superior:738598940177596497>"
     },
     "herb_epic": {
-        id: "703961463890640946",
-        string: "<:herb_epic:703961463890640946>"
+        id: "738598941964238889",
+        string: "<a:herb_epic:738598941964238889>"
     },
     "herb_legendary": {
-        id: "703961463542251551",
-        string: "<:herb_legendary:703961463542251551>"
+        id: "738598940374728764",
+        string: "<a:herb_legendary:738598940374728764>"
     },
     "herb_mythic": {
         id: "703958796229148683",
         string: "<:herb_mythic:703958796229148683>"
     },
     "item_type_chest": {
-        id: "704264556620283934",
-        string: "<:chest:704264556620283934>"
+        id: "737489070237810708",
+        string: "<a:chest:737489070237810708>"
     },
     "item_type_legs": {
-        id: "704266130826723398",
-        string: "<:legs:704266130826723398>"
+        id: "737489071663743037",
+        string: "<a:legs:737489071663743037>"
     },
     "item_type_helmet": {
-        id: "704268453619433523",
-        string: "<:helmet:704268453619433523>"
+        id: "737489070728413194",
+        string: "<a:helmet:737489070728413194>"
     },
     "item_type_resource": {
-        id: "704270263126327316",
-        string: "<:resource:704270263126327316>"
+        id: "737489072699998299",
+        string: "<a:resource:737489072699998299>"
     },
     "potion_empty": {
-        id: "704278511548104755",
-        string: "<:potion_empty:704278511548104755>"
+        id: "737489069147422751",
+        string: "<a:potion_empty:737489069147422751>"
     },
     "item_type_lootbox": {
-        id: "704281176189173800",
-        string: "<:lootbox:704281176189173800>"
+        id: "737489073845043280",
+        string: "<a:lootbox:737489073845043280>"
     },
     "saddle": {
-        id: "704285522624774235",
-        string: "<:saddle:704285522624774235>"
+        id: "737489073438195824",
+        string: "<a:saddle:737489073438195824>"
     },
     "reset_time_potion": {
-        id: "704291826093522974",
-        string: "<:reset_time_potion:704291826093522974>"
+        id: "737489071399633060",
+        string: "<a:reset_time_potion:737489071399633060>"
     },
     "dungeon_door": {
-        id: "704323073364590723",
-        string: "<:dungeon_door:704323073364590723>"
+        id: "737489068815810700",
+        string: "<a:dungeon_door:737489068815810700>"
     },
     "leveldown": {
-        id: "704364488006041740",
-        string: "<:leveldown:704364488006041740>"
+        id: "737489069872906280",
+        string: "<a:leveldown:737489069872906280>"
     },
     "nochange": {
-        id: "704363335948304394",
-        string: "<:nochange:704363335948304394>"
+        id: "737489069797408808",
+        string: "<a:nochange:737489069797408808>"
     },
     "user": {
-        id: "403148210295537664",
-        string: "<:user:403148210295537664>"
+        id: "737489070430748673",
+        string: "<a:user:737489070430748673>"
     },
     "gold_coins": {
-        id: "704672468190887967",
-        string: "<:gold_coins:704672468190887967>"
+        id: "737489070346993735",
+        string: "<a:gold_coins:737489070346993735>"
     },
     "polar_bear": {
-        id: "706186485338079263",
-        string: "<:polar_bear:706186485338079263>"
+        id: "737489070976139395",
+        string: "<a:polar_bear:737489070976139395>"
     },
     "shield": {
-        id: "403574099143819276",
-        string: "<:shieldd:403574099143819276>"
+        id: "737489070451720282",
+        string: "<a:shieldd:737489070451720282>"
     },
     "tild": {
-        id: "706481565613686857",
-        string: "<:tild:706481565613686857>"
+        id: "737489071579987979",
+        string: "<a:tild:737489071579987979>"
     },
 };
 
@@ -345,89 +345,89 @@ Emojis.emojisDev = {
 };
 
 Emojis.general = {
-    "one": "1⃣",
-    "two": "2⃣",
-    "three": "3⃣",
-    "four": "4⃣",
-    "five": "5⃣",
-    "six": "6⃣",
-    "seven": "7⃣",
-    "eight": "8⃣",
-    "nine": "9⃣",
-    "red_circle": "🔴",
-    "blue_circle": "🔵",
-    "money_bag": "💰",
-    "star": "⭐",
-    "eight_pointed_black_star": "✴",
-    "backpack": "🎒",
-    "shield": "🛡",
-    "id": "🆔",
-    "red_heart": "❤️",
-    "black_heart": "🖤",
-    "right_arrow": "▶",
-    "left_arrow": "◀",
-    "critical": "💢",
-    "hourglass_not_done": "⏳",
-    "scroll": "📜",
-    "q_mark": "❓",
-    "g_vmark": "✅",
-    "g_xmark": "❌",
-    "stun": "🌀",
-    "hammer": "🔨",
-    "waving_hand": "👋",
-    "briefcase": "💼",
-    "baggage_claim": "🛄",
-    "crossed_swords": "⚔️",
-    "cloud": "☁️",
-    "tornado": "🌪️",
-    "sun": "☀️",
-    "rain": "🌧️",
-    "snow": "🌨️",
-    "fog": "🌫️",
-    "fire": "🔥",
-    "snowflake": "❄️",
-    "rainstorm": "⛈️",
-    "thermometer": "🌡️",
-    "orange_circle": "🟠",
-    "purple_circle": "🟣",
-    "white_circle": "⚪",
-    "green_circle": "🟢",
-    "gemstone": "💎",
-    "herb": "🌿",
-    "pinetree": "🌲",
-    "axe": "🪓",
-    "pickaxe": "⛏️",
-    "gloves": "🧤",
-    "king": "🤴",
-    "man_pilot": "👨‍✈️",
-    "person": "🧑",
-    "loudspeaker": "📢",
-    "warning": "⚠️",
-    "sunrise_over_the_mountain": "🌄",
-    "simple_left_to_right_arrow": "→",
-    "stopwatch": "⏱️",
-    "horse_face": "🐴",
-    "collision": "💥",
-    "national_park": "🏞️",
-    "castle": "🏰",
-    "biceps": "💪🏻",
-    "boot": "🥾",
-    "books": "📚",
-    "eye": "👁️",
-    "sparkles": "✨",
-    "high_voltage": "⚡",
-    "game_die": "🎲",
-    "light_bulb": "💡",
-    "mage": "🧙",
-    "clipboard": "📋",
-    "seedling": "🌱",
-    "balance_scale": "⚖️",
-    "trophy": "🏆",
-    "camel": "🐪",
-    "salamander": "🦎",
-    "skull_and_bones": "☠️",
-    "vmark": "✅",
-    "xmark": "❌"
+    "one": "1âƒ£",
+    "two": "2âƒ£",
+    "three": "3âƒ£",
+    "four": "4âƒ£",
+    "five": "5âƒ£",
+    "six": "6âƒ£",
+    "seven": "7âƒ£",
+    "eight": "8âƒ£",
+    "nine": "9âƒ£",
+    "red_circle": "ðŸ”´",
+    "blue_circle": "ðŸ”µ",
+    "money_bag": "ðŸ’°",
+    "star": "â­",
+    "eight_pointed_black_star": "âœ´",
+    "backpack": "ðŸŽ’",
+    "shield": "ðŸ›¡",
+    "id": "ðŸ†”",
+    "red_heart": "â¤ï¸",
+    "black_heart": "ðŸ–¤",
+    "right_arrow": "â–¶",
+    "left_arrow": "â—€",
+    "critical": "ðŸ’¢",
+    "hourglass_not_done": "â³",
+    "scroll": "ðŸ“œ",
+    "q_mark": "â“",
+    "g_vmark": "âœ…",
+    "g_xmark": "âŒ",
+    "stun": "ðŸŒ€",
+    "hammer": "ðŸ”¨",
+    "waving_hand": "ðŸ‘‹",
+    "briefcase": "ðŸ’¼",
+    "baggage_claim": "ðŸ›„",
+    "crossed_swords": "âš”ï¸",
+    "cloud": "â˜ï¸",
+    "tornado": "ðŸŒªï¸",
+    "sun": "â˜€ï¸",
+    "rain": "ðŸŒ§ï¸",
+    "snow": "ðŸŒ¨ï¸",
+    "fog": "ðŸŒ«ï¸",
+    "fire": "ðŸ”¥",
+    "snowflake": "â„ï¸",
+    "rainstorm": "â›ˆï¸",
+    "thermometer": "ðŸŒ¡ï¸",
+    "orange_circle": "ðŸŸ ",
+    "purple_circle": "ðŸŸ£",
+    "white_circle": "âšª",
+    "green_circle": "ðŸŸ¢",
+    "gemstone": "ðŸ’Ž",
+    "herb": "ðŸŒ¿",
+    "pinetree": "ðŸŒ²",
+    "axe": "ðŸª“",
+    "pickaxe": "â›ï¸",
+    "gloves": "ðŸ§¤",
+    "king": "ðŸ¤´",
+    "man_pilot": "ðŸ‘¨â€âœˆï¸",
+    "person": "ðŸ§‘",
+    "loudspeaker": "ðŸ“¢",
+    "warning": "âš ï¸",
+    "sunrise_over_the_mountain": "ðŸŒ„",
+    "simple_left_to_right_arrow": "â†’",
+    "stopwatch": "â±ï¸",
+    "horse_face": "ðŸ´",
+    "collision": "ðŸ’¥",
+    "national_park": "ðŸžï¸",
+    "castle": "ðŸ°",
+    "biceps": "ðŸ’ªðŸ»",
+    "boot": "ðŸ¥¾",
+    "books": "ðŸ“š",
+    "eye": "ðŸ‘ï¸",
+    "sparkles": "âœ¨",
+    "high_voltage": "âš¡",
+    "game_die": "ðŸŽ²",
+    "light_bulb": "ðŸ’¡",
+    "mage": "ðŸ§™",
+    "clipboard": "ðŸ“‹",
+    "seedling": "ðŸŒ±",
+    "balance_scale": "âš–ï¸",
+    "trophy": "ðŸ†",
+    "camel": "ðŸª",
+    "salamander": "ðŸ¦Ž",
+    "skull_and_bones": "â˜ ï¸",
+    "vmark": "âœ…",
+    "xmark": "âŒ"
 
 };
 

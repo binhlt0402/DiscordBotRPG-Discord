@@ -280,9 +280,9 @@ class FightManager {
 
         if (type == "pve") {
             if (summary.rounds[ind].monsterType == "elite") {
-                monsterTitle = "<:elite:406090076511141888> ";
+                monsterTitle = Emojis.getString("elite");// "<:elite:406090076511141888> ";
             } else if (summary.rounds[ind].monsterType == "boss") {
-                monsterTitle = "<:boss:456113364687388683> ";
+                monsterTitle = Emojis.getString("boss"); //"<:boss:456113364687388683> ";
             } else {
                 monsterTitle = this.getMonsterDifficultyEmoji(summary.rounds[ind].monsterDifficultyName) + " ";
             }
