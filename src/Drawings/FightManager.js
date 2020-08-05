@@ -32,8 +32,7 @@ class FightManager {
             team1_number: data.team1_number,
             team2_number: data.team2_number,
             playersMovedTo: data.playersMovedTo
-        };
-
+        };        
         if (theFight.summary.type == "pve") {
             if (data.beingAttacked == true) {
                 message.channel.send(Translator.getString(lang, "fight_pve", "ganked_by_monster")).catch((e) => console.log(e));
@@ -41,6 +40,7 @@ class FightManager {
             } else {
                 theFight.text[2] = Emojis.emojisProd.user.string + " " + Translator.getString(lang, "fight_pve", "user_attacked", [leftName, rightName]) + "\n\n";
             }
+            //theFight.text[2] += " --- " + data.summary.message;
         } else if (theFight.summary.type == "pvp") {
             if (data.team1_number === 1) {
                 theFight.text[2] = Emojis.emojisProd.sword.string + " " + Translator.getString(lang, "fight_pve", "user_attacked", [leftName, rightName]) + "\n\n";
@@ -218,7 +218,7 @@ class FightManager {
 
                     let usersToTag = "";
                     for (let userID of summary.usersIds) {
-                        usersToTag += "<@" + userID + "> ";
+                        usersToTag += "<@" + userID + "> " + fight.summary.message;
                     }
                     if (usersToTag != "") {
                         message.channel.send(usersToTag);

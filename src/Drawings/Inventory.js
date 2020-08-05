@@ -4,6 +4,7 @@ const Discord = require("discord.js");
 const Emojis = require("./Emojis");
 const Globals = require("../Globals");
 const GenericMultipleEmbedList = require("./GenericMultipleEmbedList");
+const TextDrawings = require("./TextDrawings");
 
 class Inventory {
     /**
@@ -35,10 +36,19 @@ class Inventory {
         header += Translator.getString(lang, "inventory_equipment", "rarity") + " - ";
         header += Translator.getString(lang, "inventory_equipment", "power") + "\n\n";
 
-
         let inventoryList = new GenericMultipleEmbedList();
         inventoryList.load({ collection: data.items, displayIfEmpty: emptyTitle, listType: 0, pageRelated: pageObject }, lang, (i, item) => {
-            return (isInventory ? i + " - " : "") + ItemShow.itemToStr(item, lang);
+            let str = "";
+            if(item.statsChange!=null){
+                Object.keys(item.statsChange).forEach(st => {
+                    let statName = st;
+                    if(item.statsChange[statName]!=0){
+                        let statStr = item.statsChange[statName] > 0 ? "+" + item.statsChange[statName] : item.statsChange[statName];
+                        str += Emojis.stats[statName] + " " + statStr + " ";
+                    }                    
+                });
+            }            
+            return (isInventory ? i + " - " : "") + ItemShow.itemToStr(item, lang) + "\n\n " + str;
         });
 
         let embed = new Discord.MessageEmbed()
@@ -50,7 +60,7 @@ class Inventory {
         return inventoryList.getEmbed(embed);
     }
 
-    ciValueSellAllDisplay(data) {
+ciValueSellAllDisplay(data) {
         let lang = data.lang;
         let str = "";
 

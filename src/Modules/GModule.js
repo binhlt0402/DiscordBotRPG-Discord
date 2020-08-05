@@ -225,7 +225,6 @@ class GModule {
      */
     getSearchFilters(args) {
         let toReturn = { page: 1, params: {} };
-
         if (args.length > 0) {
             if (args.length % 2) {
                 // Impair

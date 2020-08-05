@@ -39,8 +39,8 @@ class TextDrawings {
 
                 if (isItem) {
                     if (compareStats[stat] >= 0) {
-                        let diffNumber = (stats[stat] - compareStats[stat]);
-                        diff = " -> " + diffNumber;
+                        let diffNumber = (stats[stat] - compareStats[stat]);                        
+                        diff = " (" + (diffNumber > 0 ? "+" + diffNumber : diffNumber) + ")";
 
                         if (diffNumber > 0) {
                             compareEmoji = Emojis.emojisProd.levelup.string;
@@ -51,7 +51,7 @@ class TextDrawings {
                             compareEmoji = Emojis.emojisProd.nochange.string;
                         }
                     } else {
-                        diff = " -> 0";
+                        diff = " (0)";
                         compareEmoji = Emojis.emojisProd.nochange.string;
                     }
                 } else {
@@ -95,7 +95,7 @@ class TextDrawings {
                 }
                 beforeNumber += " ".repeat(lessSpaces <= 0 ? 1 : lessSpaces);
 
-                str += Emojis.stats[stat] + quote + statLocalized + beforeNumber + "[" + stats[stat] + diff + "]" + totalStat + quote + " "  + compareEmoji + end;
+                str += Emojis.stats[stat] + quote + statLocalized + beforeNumber + "" + stats[stat] + diff + "" + totalStat + quote + " "  + compareEmoji + end;
             }
 
         }
