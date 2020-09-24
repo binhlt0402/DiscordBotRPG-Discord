@@ -11,7 +11,8 @@ class Shop {
         let listOfShopItems = new GenericMultipleEmbedList();
 
         listOfShopItems.load({ collection: data.items, displayIfEmpty: Translator.getString(data.lang, "general", "nothing_at_this_page"), listType: 0, pageRelated: { page: data.page, maxPage: data.maxPage } }, data.lang, (index, item) => {
-            return (Number.parseInt(index)+1) + " - " + ItemShow.itemToStr(item, lang) + " - " + Emojis.general.money_bag + " " + Translator.getFormater(lang).format(item.priceWithTax) + "G";
+            let price = data.tax ? Translator.getFormater(lang).format(item.priceWithTax) : Translator.getFormater(lang).format(item.price);
+            return (Number.parseInt(index)+1) + " - " + ItemShow.itemToStr(item, lang) + " - " + Emojis.general.money_bag + " " + price + "G";
         });
 
         let embed = new Discord.MessageEmbed()

@@ -136,6 +136,7 @@ class InventoryModule extends GModule {
             case "inv":
             case "inventory":
                 searchFilters = this.getSearchFilters(args);
+                
                 msg = await this.getDisplayIfSuccess(await axios.get("/game/inventory/show/" + searchFilters.page, {
                     params: searchFilters.params
                 }), async (data) => {
@@ -162,6 +163,7 @@ class InventoryModule extends GModule {
 
                 msg = await this.getDisplayIfSuccess(await axios.post("/game/inventory/sellall/value", searchFilters.params), async (data) => {
                     if (data.value > 0) {
+                        console.log("mark 1 " + searchFilters.params );
                         this.confirmListener(message, Inventory.ciValueSellAllDisplay(data, searchFilters.params), async (validate) => {
                             if (validate) {
                                 return this.getBasicSuccessErrorMessage(await axios.post("/game/inventory/sellall", searchFilters.params));
